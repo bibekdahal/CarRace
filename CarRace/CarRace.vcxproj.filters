@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="glew\glew.c">
+      <Filter>Sources\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Graphics.cpp">
+      <Filter>Sources\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Mesh.cpp">
+      <Filter>Sources\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\System.cpp">
+      <Filter>Sources\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\StandardComponents.cpp">
+      <Filter>Sources\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Scene.cpp">
+      <Filter>Sources\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MyScene.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Model.cpp">
+      <Filter>Sources\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Engine.cpp">
+      <Filter>Sources\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\LuaScriptSystem.cpp">
+      <Filter>Sources\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\LuaScript.cpp">
+      <Filter>Sources\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\LuaScriptComponent.cpp">
+      <Filter>Sources\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Window.cpp">
+      <Filter>Sources\graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{6a55f597-718e-489d-bd42-9fe31c13e471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{5287ec4d-9fb8-4fac-90b2-228b6807c3e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{0f7092ed-bf77-4891-8109-a9139e21a007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\engine">
+      <UniqueIdentifier>{90fe1cee-c74f-4ce7-82be-161aa1da98ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\graphics">
+      <UniqueIdentifier>{b4cf13ce-c568-4fff-b110-7cd3d599a7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\utils">
+      <UniqueIdentifier>{68700607-b0d9-4342-b2d8-2c257482153a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\engine">
+      <UniqueIdentifier>{84899176-06e0-462f-9c24-5320ee68ec87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\graphics">
+      <UniqueIdentifier>{b26d4d0b-b524-4268-8825-10a657d302f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\utils">
+      <UniqueIdentifier>{44c3f8d7-e1e2-4a2c-8e2e-740a83df85b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\btPhysics">
+      <UniqueIdentifier>{2d0b620a-c9aa-42b2-a431-6ca453b3d883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\lua">
+      <UniqueIdentifier>{180dc766-fa8c-4fa9-af4b-c64c37cd1937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\lua">
+      <UniqueIdentifier>{0065c194-6fac-4bbd-9378-04a8a466440d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{335f6bec-f2a8-4dfd-9e1f-e42a347de1db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graphics\GLSLShader.h">
+      <Filter>Headers\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Graphics.h">
+      <Filter>Headers\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Mesh.h">
+      <Filter>Headers\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\TextureManager.h">
+      <Filter>Headers\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Libraries.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\SOIL.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\stdinc.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\ComponentTypes.h">
+      <Filter>Headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Engine.h">
+      <Filter>Headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Entity.h">
+      <Filter>Headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\StandardComponents.h">
+      <Filter>Headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\System.h">
+      <Filter>Headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BTPhysics\BTPhysics.h">
+      <Filter>Headers\btPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\StandardMaterials.h">
+      <Filter>Headers\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Scene.h">
+      <Filter>Headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyScene.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="btPhysics\BTVehicle.h">
+      <Filter>Headers\btPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Model.h">
+      <Filter>Headers\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\CameraSystem.h">
+      <Filter>Headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Layers.h">
+      <Filter>Headers\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\LuaScript.h">
+      <Filter>Headers\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\LuaScriptSystem.h">
+      <Filter>Headers\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\LuaCall.h">
+      <Filter>Headers\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\LuaScriptComponent.h">
+      <Filter>Headers\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\LuaComponentRegistration.h">
+      <Filter>Headers\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\LuaScene.h">
+      <Filter>Headers\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>Headers\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua_glm_wrapper.h">
+      <Filter>Headers\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\LuaMaterialRegistrations.h">
+      <Filter>Headers\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Light.h">
+      <Filter>Headers\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\ModelRenderSystem.h">
+      <Filter>Headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\DirectionalLightSystem.h">
+      <Filter>Headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\PointLightSystem.h">
+      <Filter>Headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\SpotLightSystem.h">
+      <Filter>Headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\MeshRenderSystem.h">
+      <Filter>Headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\AnimationStructs.h">
+      <Filter>Headers\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Window.h">
+      <Filter>Headers\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Timer.h">
+      <Filter>Headers\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\SkeletalStructs.h">
+      <Filter>Headers\graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\fs_normal3d.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\vs_normal3d.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="scripts\follow_script.lua">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="scripts\input_script.lua">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="scripts\game_script.lua">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="scripts\config.lua">
+      <Filter>Scripts</Filter>
+    </None>
+  </ItemGroup>
+</Project>
